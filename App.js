@@ -22,7 +22,6 @@ export default function App() {
   }
 
   function startAddGoalHandler() {
-    console.log('here');
     setModalIsVisible(true);
   }
 
