@@ -10,7 +10,6 @@ export default function App() {
       <View>
         <Text>List of goals</Text>
       </View>
-      {/* <View></View> */}
     </View>
   );
 }
@@ -23,7 +22,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  TextInput:{
+  TextInput: {
     borderWidth: 1,
     borderColor: '#cccccc',
     width: '80%',
