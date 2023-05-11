@@ -22,7 +22,10 @@ function GoalInput(props) {
         <View style={styles.inputContainer}>
             <TextInput style={styles.TextInput}
                 placeholder="Your course goal!"
-                onChangeText={goalInputHandler} />
+                onChangeText={goalInputHandler} 
+                // binding value with variable to clear field
+                value={enteredGoalText}
+                />
             <Button title="Add Goal" onPress={addGoalHandler} />
         </View>
     );
