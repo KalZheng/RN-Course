@@ -37,7 +37,7 @@ export default function App() {
           alwaysBounceVertical={false}
           data={courseGoals}
           renderItem={itemData => {
-            return (<GoalItem />);
+            return (<GoalItem text={itemData.item.text} />);
           }}
           //this is not needed 
           // if the object, (in this case enteredGoalText) 
